@@ -1,0 +1,45 @@
+On each machine do the following:
+
+# MASTER (NameNode)
+1. First open the configuration file:
+sudo nano /etc/network/interfaces
+
+2. Then add the settings below (comment out the line stating enp0s3 is using DHCP):
+auto enp0s3
+iface enp0s3 inet static
+address 192.168.2.100
+netmask 255.255.255.0
+gateway 192.168.2.1
+network 192.168.2.0
+broadcast 192.168.2.255
+dns-nameservers 192.168.2.1 8.8.4.4 8.8.8.8
+
+
+#Slave-1 (DataNode)
+1. First open the configuration file:
+sudo nano /etc/network/interfaces
+
+2. Then add the settings below (comment out the line stating enp0s3 is using DHCP):
+auto enp0s3
+iface enp0s3 inet static
+address 192.168.2.101
+netmask 255.255.255.0
+gateway 192.168.2.1
+network 192.168.2.0
+broadcast 192.168.2.255
+dns-nameservers 192.168.2.1 8.8.4.4 8.8.8.8
+
+
+#Slave-2 (DataNode)
+1. First open the configuration file:
+sudo nano /etc/network/interfaces
+
+2. Then add the settings below (comment out the line stating enp0s3 is using DHCP):
+auto enp0s3
+iface enp0s3 inet static
+address 192.168.2.102
+netmask 255.255.255.0
+gateway 192.168.2.1
+network 192.168.2.0
+broadcast 192.168.2.255
+dns-nameservers 192.168.2.1 8.8.4.4 8.8.8.8
