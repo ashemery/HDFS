@@ -1,0 +1,16 @@
+HDFS Command Cheatsheet
+
+# Starting and Stopping HDFS
+start-hdfs.sh
+stop-hdfs.sh
+
+# Checking Java Virtual Machine Process Status
+jps
+
+# Basic HDFS commands:
+hdfs dfs -ls /                      # listing files/directories
+hdfs dfs -mkdir /directory          # creating a directory
+hdfs dfs -put file /path            # uploading a file to a path
+hdfs dfs -cat /path/2/file          # displaying the content of a file
+
+# More will be added soon
