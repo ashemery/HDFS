@@ -1,6 +1,6 @@
 # HDFS Environment
 
-This holds my HDFS configurations I use for my HDFS Forensics Research. The virtual machines have been uploaded and you can find them in the URL below in case you want to use them. The VMs could be found here:
+This holds my Hadoop Distributed File System (HDFS) configurations I use for my HDFS Forensics Research. The virtual machines have been uploaded and you can find them in the URL below in case you want to use them. The VMs could be found here:
 https://archive.org/details/hdfs-cluster
 
 This HDFS Cluster includes 1-Master NameNode and 2-Slave DataNodes. This setup could be used for training with any of the following:
