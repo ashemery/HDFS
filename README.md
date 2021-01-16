@@ -13,4 +13,10 @@ Installation: details will be added soon, but it's fairly easy...
 
 Adding more DataNodes: If you need to use more than 2 DataNodes? details to that will be added soon...
 
+# Other Useful Documents:
+- How to Setup Your Own HDFS Cluster [here](https://github.com/ashemery/HDFS/blob/master/PUBLIC-Hadoop%20Cluster%20Setup.pdf)
+- How to Install Apache Hive [here](https://github.com/ashemery/HDFS/blob/master/PUBLIC-Apache%20Hive.pdf)
+- Network Configurations [here](https://github.com/ashemery/HDFS/blob/master/network-configuration.txt)
+- HDFS Cheatsheet [here](https://github.com/ashemery/HDFS/blob/master/cheatsheet)
+
 Good luck...
