@@ -10,8 +10,11 @@ This HDFS Cluster includes 1-Master NameNode and 2-Slave DataNodes. This setup c
 4. Others, just use your imagination
 
 Installation: details will be added soon, but it's fairly easy...
-
 Adding more DataNodes: If you need to use more than 2 DataNodes? details to that will be added soon...
+
+## HDFS Cluster Credentials
+- Username: hadoop
+- Password: forensics
 
 # Other Useful Documents:
 - How to Setup Your Own HDFS Cluster [here](https://github.com/ashemery/HDFS/blob/master/PUBLIC-Hadoop%20Cluster%20Setup.pdf)
